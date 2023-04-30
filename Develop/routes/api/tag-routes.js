@@ -26,7 +26,7 @@ router.get('/:id', async (req, res) => {
 
 
     if (!tagData) {
-      res.status(404).json({ message: 'No Category found with that id!' });
+      res.status(404).json({ message: 'No Tag found with that id!' });
       return;
     }
 
